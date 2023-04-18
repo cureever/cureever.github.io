@@ -2,7 +2,7 @@
 <html>
 	<style>
 		.heading1 {
-			
+			background-color: aquamarine;
 			text-align: center;
 
 		}
@@ -10,25 +10,68 @@
 		{
 			text-align:end;
 		}
-	</style>
+	.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 200%;
+  height:200%;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position:absolute;
+  top: 60%;
+  left: 110%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: goldenrod;
+  color:darkorchid;
+  font-size: 30px;
+  padding: 25px 100px 25px 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+h4{
+	font-size: larger;
+	text-align: right;
+}
+</style>
 <title>
 	CURE EVER HEALTHCARE PRIVATE LIMITED
 </title>
 <div class="heading1">
 <H1><p style="color:blue"> CURE EVER</p> <p style="color:green">HEALTHCARE PRIVATE LIMITED </p></h1>
-	</div>
-	<div class="caption"><h4><i> Commited to Cure</i></h4>
+	
+	<h4><i> ...Commited to Cure</i></h4>
 	</div>
 <body>
 <!--logo call for confirmation-->
 <!--Photos to demostate -->
-<p style="background-image: url('lookatmicroscope2.jpg');">
+<div class="container">
+<img src="lookatmicroscope2.jpg" alt="Image Loading" style="width:200%;height:200%;">
+<a href="products.html" <button class="btn">PRODUCTS</button></a>
+</p></div>
+</body>
 
-<img src="lookatmicroscope2.jpg" alt="Image Loading" style="width:100%;height:100%;">
-</p>
+
+
+
 <p><B>THANK YOU DOCTORS </B></p> 
 <!--Arrangements to the text
 colors to the text-->
+
 </body>
 <footer style="color: blueviolet;"><H3>All Products  are WHO - GMP Certified Plants based at Kolkata</H3>
 </footer>
