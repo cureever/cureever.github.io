@@ -14,6 +14,14 @@
   position: relative;
   width: 50%;
 }
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50.0%;
+  padding: 5px;
+}
 
 /* Make the image responsive */
 .container img {
@@ -42,7 +50,6 @@
 .container .btn:hover {
   background-color: black;
 }
-
 h4{
 	font-size: larger;
 	text-align: right;
@@ -60,7 +67,10 @@ h4{
 <!--logo call for confirmation-->
 <!--Photos to demostate -->
 <div class="container">
-<img src="lookatmicroscope2.jpg" alt="Image Loading" style="width:200%;height:200%;">
+<div class="row">
+<img class="column" src="lookatmicroscope2.jpg" alt="Image Loading" style="width:100%; height:520px;">
+<img class="column" src="lookatmicroscope1.jpg" alt="Image Loading" style="width:100%; height:520px;">
+</div>
 <a href="products.html" <button class="btn">PRODUCTS</button></a>
 </p></div>
 </body>
@@ -74,5 +84,9 @@ colors to the text-->
 
 </body>
 <footer style="color: blueviolet;"><H3>All Products  are WHO - GMP Certified Plants based at Kolkata</H3>
+<div class="contacts">
+ <b> <p>Email Address: cureeverhealthcarepvtltd@gmail.com</p>
+  <p>Mobile: +918466859244 </p></b>
+</div>
 </footer>
 </html>
